@@ -12,8 +12,6 @@ synopsis: Playing around with Github pipelines
 description: |
   Playing
 
-#chat:
-
 authors:
   - name: Max Ole Elliger
     initial: true
@@ -22,27 +20,11 @@ maintainers:
   - name: Max Ole Elliger
     nickname: motrellin
 
-#license:
-  #fullname: GNU General Public License v3.0 or later
-  #identifier: GPL-3.0-or-later
-
 supported_coq_versions:
-  text: Developed for 9.0
+  text: Developed for "9.0"
   opam: '{ >= "9.0" }'
-
-namespace: PipTest
 
 make_target: all
 
-documentation: |-
-  foobar
-
-#index_documentation:
-
-#coqdoc_index: ./docs/toc.html
-
-opam-file-maintainer: ole.elliger@fau.de
-
 tested_rocq_opam_versions:
-  - version: '9.0'
-    repo: 'rocq/rocq-prover'
+  - version: "9.0"

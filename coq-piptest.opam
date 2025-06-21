@@ -2,7 +2,7 @@
 # Follow the instructions on https://github.com/coq-community/templates to regenerate.
 
 opam-version: "2.0"
-maintainer: "ole.elliger@fau.de"
+maintainer: "palmskog@gmail.com"
 version: "dev"
 
 homepage: "https://github.com/motrellin/piptest"
@@ -23,7 +23,7 @@ depends: [
 ]
 
 tags: [
-  "logpath:PipTest"
+  "logpath:"
 ]
 authors: [
   "Max Ole Elliger <ole.elliger@fau.de>"

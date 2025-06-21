@@ -22,9 +22,8 @@ Playing
 
 - Author(s):
   - Max Ole Elliger (initial)
-- Compatible Rocq/Coq versions: Developed for 9.0
+- Compatible Rocq/Coq versions: Developed for "9.0"
 - Additional dependencies: none
-- Rocq/Coq namespace: `PipTest`
 - Related publication(s): none
 
 ## Building and installation instructions
@@ -47,4 +46,4 @@ make install
 ```
 
 
-foobar
+
