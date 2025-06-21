@@ -27,8 +27,8 @@ maintainers:
   #identifier: GPL-3.0-or-later
 
 supported_coq_versions:
-  text: Developed for 9.0.0
-  opam: '{ ">= 9.0" }'
+  text: Developed for 9.0
+  opam: '{ >= "9.0" }'
 
 namespace: PipTest
 

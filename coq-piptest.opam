@@ -19,7 +19,7 @@ Playing
 build: [make "-j%{jobs}%" "all"]
 install: [make "install"]
 depends: [
-  "coq" { ">= 9.0" }
+  "coq" { >= "9.0" }
 ]
 
 tags: [
