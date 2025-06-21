@@ -1,0 +1,1 @@
+Definition Foo := 42.
