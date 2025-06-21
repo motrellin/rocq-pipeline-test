@@ -27,8 +27,12 @@ maintainers:
   #identifier: GPL-3.0-or-later
 
 supported_coq_versions:
-  text: Developed for 9.0
-  opam: '{ >= "9.0" }'
+  text: Developed for 9.0.0
+  opam: '{ = "9.0.0" }'
+
+supported_ocaml_versions:
+  text: 5.0.0
+  opam: '{= "5.0.0"}'
 
 namespace: PipTest
 
@@ -44,5 +48,5 @@ documentation: |-
 opam-file-maintainer: ole.elliger@fau.de
 
 tested_coq_opam_versions:
-  - version: '9.0'
+  - version: '9.0.0'
     repo: 'rocq/rocq-prover'

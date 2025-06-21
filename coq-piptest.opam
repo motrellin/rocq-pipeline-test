@@ -19,7 +19,8 @@ Playing
 build: [make "-j%{jobs}%" "all"]
 install: [make "install"]
 depends: [
-  "coq" { >= "9.0" }
+  "ocaml" {= "5.0.0"}
+  "coq" { = "9.0.0" }
 ]
 
 tags: [
