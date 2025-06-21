@@ -1,0 +1,48 @@
+fullname: Pipeline Testing
+shortname: piptest
+branch: main
+organization: motrellin
+
+action: true
+
+community: false
+coqdoc: true
+submodule: true #At least for coqdocjs
+synopsis: Playing around with Github pipelines
+description: |
+  Playing
+
+#chat:
+
+authors:
+  - name: Max Ole Elliger
+    initial: true
+    email: ole.elliger@fau.de
+maintainers:
+  - name: Max Ole Elliger
+    nickname: motrellin
+
+#license:
+  #fullname: GNU General Public License v3.0 or later
+  #identifier: GPL-3.0-or-later
+
+supported_coq_versions:
+  text: Developed for 9.0.0
+  opam: '{ ">= 9.0" }'
+
+namespace: PipTest
+
+make_target: all
+
+documentation: |-
+  foobar
+
+#index_documentation:
+
+#coqdoc_index: ./docs/toc.html
+
+opam-file-maintainer: ole.elliger@fau.de
+
+tested_coq_opam_versions:
+  - version: '9.0'
+    repo: 'rocq/rocq-prover'
