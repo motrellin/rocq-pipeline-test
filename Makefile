@@ -14,3 +14,6 @@ force _CoqProject Makefile: ;
 	@+$(MAKE) -f Makefile.coq $@
 
 .PHONY: all clean force
+
+COQMAKEFILE := Makefile # Do not change!
+include coqdocjs/Makefile.doc
