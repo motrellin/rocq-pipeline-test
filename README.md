@@ -22,7 +22,7 @@ Playing
 
 - Author(s):
   - Max Ole Elliger (initial)
-- Compatible Rocq/Coq versions: Developed for "9.0"
+- Compatible Rocq/Coq versions: Developed for "8.19"
 - Additional dependencies: none
 - Related publication(s): none
 
