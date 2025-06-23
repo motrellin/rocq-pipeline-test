@@ -21,10 +21,10 @@ maintainers:
     nickname: motrellin
 
 supported_coq_versions:
-  text: Developed for "9.0"
-  opam: '{ >= "9.0" }'
+  text: Developed for "8.19"
+  opam: '{ >= "8.19" }'
 
 make_target: all
 
-tested_rocq_opam_versions:
-  - version: "9.0"
+tested_coq_opam_versions:
+  - version: "8.19"
